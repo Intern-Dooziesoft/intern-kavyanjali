@@ -1,0 +1,239 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  
+  .main-container1 {
+    overflow: hidden;
+  }
+  
+  .main-container1,
+  .main-container1 * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .main-container1 {
+    position: relative;
+    width: 450px;
+    height: 956px;
+    margin: 0 auto;
+    background:#140d32;
+    overflow: hidden;
+  }
+  .group1 {
+    position: absolute;
+    height: 823px;
+    top: 30px;
+    right: 14px;
+    left: 14px;
+    z-index: 12;
+  }
+  .pic1 {
+    position: relative;
+    width: 39px;
+    height: 44px;
+    margin: 0 0 0 0;
+    background: url(https://static.codia.ai/custom_image/2025-04-09/064436/profile-icon.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 12;
+  }
+  .box1 {
+    position: relative;
+    width: 412px;
+    height: 403px;
+    margin: 135px 0 0 0;
+    background: #ebd3f8;
+    border: 5px solid #3dc2ec;
+    z-index: 3;
+    overflow: visible auto;
+    border-radius: 25px;
+    box-sizing: content-box;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+  .box-21 {
+    position: relative;
+    width: 378px;
+    height: 286px;
+    margin: 68px 0 0 18px;
+    background: #ffffff;
+    z-index: 4;
+    border-radius: 28px;
+    box-shadow: 0 4px 4px 0 rgba(128, 128, 128, 0.5) inset;
+  }
+  .text1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    height: 29px;
+    top: 40px;
+    left: 20px;
+    color: #000000;
+    font-family: IBM Plex Sans, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28.8px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: -0.48px;
+    z-index: 5;
+  }
+  .section1 {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 276px;
+    position: absolute;
+    width: 412px;
+    height: 80px;
+    top: 61px;
+    left: 0;
+    padding: 0 16px 0 4px;
+    background: #402e7a;
+    border-radius: 12px;
+  }
+  .text-21{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    height: 51px;
+    top: 75px;
+    left: calc(50% - 70px);
+    color: #ffffff;
+    font-family: IBM Plex Sans, var(--default-font-family);
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: -0.8px;
+    z-index: 1;
+  }
+  .box-31 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 8px;
+    position: absolute;
+    width: 390px;
+    height: 99px;
+    top: 620px;
+    left: 0;
+    background: #ebd3f8;
+    border: 5px solid #3dc2ec;
+    z-index: 6;
+    overflow: hidden;
+    border-radius: 100px;
+  }
+  .group-21 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 0;
+    gap: 8px;
+    position: relative;
+    min-width: 0;
+    min-height: 0;
+    padding: 10px 24px 10px 24px;
+    z-index: 7;
+  }
+  .text-31 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    height: 32px;
+    top: 654px;
+    left: 78px;
+    color: #8f00ff;
+    font-family: IBM Plex Sans, var(--default-font-family);
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: -0.64px;
+    z-index: 8;
+  }
+  .box-41{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 8px;
+    position: absolute;
+    width: 390px;
+    height: 99px;
+    top: 757px;
+    left: 0;
+    background: #ebd3f8;
+    border: 5px solid #3dc2ec;
+    z-index: 9;
+    overflow: hidden;
+    border-radius: 100px;
+  }
+  .section-21 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 0;
+    gap: 8px;
+    position: relative;
+    min-width: 0;
+    min-height: 0;
+    padding: 10px 24px 10px 24px;
+    z-index: 10;
+  }
+  .text-41 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    height: 32px;
+    top: 791px;
+    left: 61px;
+    color: #8f00ff;
+    font-family: IBM Plex Sans, var(--default-font-family);
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: -0.64px;
+    z-index: 11;
+  }
+  .img1 {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 717px;
+    left: 480.465px;
+    background: url(https://static.codia.ai/custom_image/2025-04-09/064436/navigation-arrow.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 2;
+    overflow: hidden;
+  }
+  
