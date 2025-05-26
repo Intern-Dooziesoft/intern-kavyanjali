@@ -1,0 +1,400 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  
+  .main-container4 {
+    overflow: hidden;
+  }
+  
+  .main-container4,
+  .main-container4 * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .main-container4 {
+    position: relative;
+    width: 465px;
+    height: 956px;
+    margin: 0 auto;
+    background:#140d32;
+    overflow: hidden;
+  }
+  .img4 {
+    position: relative;
+    width: 39px;
+    height: 44px;
+    margin: 14px 0 0 7px;
+    background: url(https://static.codia.ai/custom_image/2025-04-09/072122/header-icon.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 23;
+  }
+  .section4 {
+    position: relative;
+    width: 412px;
+    height: 82px;
+    margin: 18px 0 0 14px;
+    z-index: 22;
+  }
+  .group4 {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 276px;
+    position: absolute;
+    width: 412px;
+    height: 82px;
+    top: 0;
+    left: 0;
+    padding: 0 16px 0 4px;
+    background: #402e7a;
+    z-index: 20;
+    border-radius: 12px;
+  }
+  .pic4 {
+    position: absolute;
+    width: 39px;
+    height: 44px;
+    top: 16px;
+    left: 350px;
+    background: url(https://static.codia.ai/custom_image/2025-04-09/072122/section-icon.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 22;
+  }
+  .text4 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    height: 38px;
+    top: 22px;
+    left: 49px;
+    color: #ffffff;
+    font-family: IBM Plex Sans, var(--default-font-family);
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: -0.64px;
+    z-index: 21;
+  }
+  .box4 {
+    position: relative;
+    width: 412px;
+    height: 75px;
+    margin: 49px 0 0 14px;
+    z-index: 9;
+  }
+  .section-24 {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 276px;
+    position: absolute;
+    width: 412px;
+    height: 75px;
+    top: 0;
+    left: 0;
+    padding: 0 16px 0 4px;
+    background: #ebd3f8;
+    border: 3px solid #3dc2ec;
+    z-index: 5;
+    border-radius: 12px;
+    box-sizing: content-box;
+    box-shadow: 0 4px 4px 0 rgba(128, 128, 128, 0.5) inset;
+  }
+  .img-24 {
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    top: 15px;
+    left: 267px;
+    background: url(https://static.codia.ai/custom_image/2025-04-09/072122/action-icon-1.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 8;
+  }
+  .pic-24 {
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    top: 15px;
+    left: 350px;
+    background: url(https://static.codia.ai/custom_image/2025-04-09/072122/action-icon-2.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 7;
+  }
+  .pic-34 {
+    position: absolute;
+    width: 42px;
+    height: 41px;
+    top: 18px;
+    left: 308px;
+    background: url(https://static.codia.ai/custom_image/2025-04-09/072122/action-icon-3.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 6;
+  }
+  .text-24 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    height: 29px;
+    top: 21px;
+    left: 13px;
+    color: #8f00ff;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 28.8px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: -0.48px;
+    z-index: 9;
+    text-shadow: 0 4px 4px rgba(128, 128, 128, 0.5);
+  }
+  .wrapper4 {
+    position: relative;
+    width: 412px;
+    height: 75px;
+    margin: 50px 0 0 14px;
+    z-index: 14;
+  }
+  .group-24 {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 276px;
+    position: absolute;
+    width: 412px;
+    height: 75px;
+    top: 0;
+    left: 0;
+    padding: 0 16px 0 4px;
+    background: #ebd3f8;
+    border: 3px solid #3dc2ec;
+    z-index: 10;
+    border-radius: 12px;
+    box-sizing: content-box;
+    box-shadow: 0 4px 4px 0 rgba(128, 128, 128, 0.5) inset;
+  }
+  .img-34 {
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    top: 15px;
+    left: 267px;
+    background: url(https://static.codia.ai/custom_image/2025-04-09/072122/menu-icon-1.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 13;
+  }
+  .pic-44 {
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    top: 15px;
+    left: 350px;
+    background: url(https://static.codia.ai/custom_image/2025-04-09/072122/menu-icon-2.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 12;
+  }
+  .img-44 {
+    position: absolute;
+    width: 42px;
+    height: 41px;
+    top: 18px;
+    left: 308px;
+    background: url(https://static.codia.ai/custom_image/2025-04-09/072122/menu-icon-3.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 11;
+  }
+  .text-34 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    height: 29px;
+    top: 21px;
+    left: 13px;
+    color: #8f00ff;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 28.8px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: -0.48px;
+    z-index: 14;
+    text-shadow: 0 4px 4px rgba(128, 128, 128, 0.5);
+  }
+  .box-24 {
+    position: relative;
+    width: 412px;
+    height: 75px;
+    margin: 50px 0 0 14px;
+    z-index: 19;
+  }
+  .section-34 {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 276px;
+    position: absolute;
+    width: 412px;
+    height: 75px;
+    top: 0;
+    left: 0;
+    padding: 0 16px 0 4px;
+    background: #ebd3f8;
+    border: 3px solid #3dc2ec;
+    z-index: 15;
+    border-radius: 12px;
+    box-sizing: content-box;
+    box-shadow: 0 4px 4px 0 rgba(128, 128, 128, 0.5) inset;
+  }
+  .img-54 {
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    top: 15px;
+    left: 267px;
+    background: url(https://static.codia.ai/custom_image/2025-04-09/072122/control-icon-1.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 18;
+  }
+  .img-64 {
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    top: 15px;
+    left: 350px;
+    background: url(https://static.codia.ai/custom_image/2025-04-09/072122/control-icon-2.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 17;
+  }
+  .pic-54 {
+    position: absolute;
+    width: 42px;
+    height: 41px;
+    top: 18px;
+    left: 308px;
+    background: url(https://static.codia.ai/custom_image/2025-04-09/072122/control-icon-3.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 16;
+  }
+  .text-44 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    height: 29px;
+    top: 21px;
+    left: 13px;
+    color: #8f00ff;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 28.8px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: -0.48px;
+    z-index: 19;
+    text-shadow: 0 4px 4px rgba(128, 128, 128, 0.5);
+  }
+  .flex-row-bc4 {
+    position: relative;
+    width: 412px;
+    height: 75px;
+    margin: 50px 0 0 14px;
+    z-index: 4;
+  }
+  .bottom-app-bar4 {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 276px;
+    position: absolute;
+    width: 412px;
+    height: 75px;
+    top: 0;
+    left: 0;
+    padding: 0 16px 0 4px;
+    background: #ebd3f8;
+    border: 3px solid #3dc2ec;
+    border-radius: 12px;
+    box-sizing: content-box;
+    box-shadow: 0 4px 4px 0 rgba(128, 128, 128, 0.5) inset;
+  }
+  .pin-angle-fill4 {
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    top: 15px;
+    left: 267px;
+    background: url(https://static.codia.ai/custom_image/2025-04-09/072122/pin-icon.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 3;
+  }
+  .trash-fill4 {
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    top: 15px;
+    left: 350px;
+    background: url(https://static.codia.ai/custom_image/2025-04-09/072122/trash-icon.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 2;
+  }
+  .pencil4 {
+    position: absolute;
+    width: 42px;
+    height: 41px;
+    top: 18px;
+    left: 308px;
+    background: url(https://static.codia.ai/custom_image/2025-04-09/072122/pencil-icon.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 1;
+  }
+  .recipie4 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    height: 29px;
+    top: 21px;
+    left: 13px;
+    color: #8f00ff;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 28.8px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: -0.48px;
+    z-index: 4;
+    text-shadow: 0 4px 4px rgba(128, 128, 128, 0.5);
+  }
+  
